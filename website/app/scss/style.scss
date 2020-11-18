@@ -1,0 +1,72 @@
+// Resets
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:visited,
+a:hover {
+    text-decoration: none;
+}
+
+
+// Temp Styles
+
+* {
+    outline: 1px solid red;
+}
+
+
+// Global Styles
+
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+// Header Section
+
+.header {
+    background-color: white;
+
+    // navigation
+    &__navigation {
+        display: flex;
+        justify-content: space-between;
+
+        width: 100%;
+        min-width: 4.5rem;
+        max-height: 4.5rem;
+    }
+
+    &__nav-list {
+        display: flex;
+        align-items: center;
+    }
+
+    // logo section
+    &__logo {
+        background-image: url("/website/dist/images/logo.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 14.0625rem; //225px
+        height: 2.5rem; //40px
+    }
+
+    // hero section
+    &__hero {
+
+    }
+}
+
+// Navbar
+

@@ -1,1 +1,51 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+
+* {
+  outline: 1px solid red;
+}
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.header {
+  background-color: white;
+}
+
+.header__navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  min-width: 4.5rem;
+  max-height: 4.5rem;
+}
+
+.header__nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  background-image: url("/website/dist/images/logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 14.0625rem;
+  height: 2.5rem;
+}
+/*# sourceMappingURL=style.css.map */
